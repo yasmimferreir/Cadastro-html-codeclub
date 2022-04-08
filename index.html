@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cadastro-CodeClub</title>
+</head>
+
+<body>
+    <div class="caixatd">
+        <form>
+            <fieldset>
+             <legend>Cadastro</legend>
+                <div class="caixa">
+                    <form action="" method="GET">
+                        <label><br>
+                            Nome:<br></label>
+                        <input type="name" placeholder="Digite se nome">
+                    </form>
+                </div>
+
+                <div class="caixa-principal">
+                    <form><br>
+                        <label>
+                            E-mail:<br> </label>
+                        <input type="email" placeholder="E-mail">
+                    </form>
+                </div>
+
+                <div class="caixa-idade">
+                    <form><br>
+                        <label>
+                            Idade:<br> </label>
+                        <input type="number" max="12">
+                    </form>
+                </div>
+
+                <div class="caixa-data">
+                    <form><br>
+                        <label>
+                            Data de nascimento:<br> </label>
+                        <input type="date">
+                    </form>
+                </div>
+                <br>
+
+                <div class="conta">
+                    <form action="" method="GET">
+                        <label>Onde voce possui conta:<br> </label>
+                        <input type="checkbox" name="redes" value="">Instagram<br>
+                        <input type="checkbox" name="veiculo1" value="">Github<br>
+                        <input type="checkbox" name="redes" value="">Youtube<br>
+                        <input type="checkbox" name="redes" value="">Linkedin<br>
+                    </form>
+                </div>
+                <br>
+
+                <div class="genero">
+                    <form action="" method="GET">
+                        <label>Sexo<br></label>
+                        <input type="radio" name="escolha" value="masculino"> Masculino
+                        <input type="radio" name="escolha" value="feminino"> Feminino
+                    </form>
+                </div>
+                <br>
+
+                <div class="color">
+                    <form action="" method="GET">
+                        <label>Cor dos olhos<br></label>
+                        <input type="color" value="#b6b6b6">
+                    </form>
+                </div>
+                <br>
+
+                <div class="bio">
+                    <form action="" method="GET">
+                        <label>Biografia<br></label>
+                        <textarea></textarea>
+                    </form>
+                </div>
+                <br>
+
+                <div class="photo">
+                    <form action="" method="POST" enctype="multipart/form-data">
+                        <label>Foto do perfil<br></label>
+                        <input type="file" accept="image/png">
+                    </form>
+                </div>
+                <br>
+
+                <div class="number">
+                    <form action="" method="GET">
+                        <label>Telefone<br></label>
+                        <input type="number">
+                    </form>
+                </div>
+                <br>
+
+                <div class="link">
+                    <form action="" method="GET">
+                        <label>Link do linkedin<br></label>
+                        <input type="url">
+                    </form>
+                </div>
+                <br>
+
+                <div class="senha">
+                    <form action="" method="GET">
+                        <label>Senha<br></label>
+                        <input type="password">
+                    </form>
+                </div>
+                <br>
+
+                <button type="submit">Limpar</button>
+                <button type="submit">Enviar dados</button>
+                </div>
+    </fieldset>
+    </form>
+    </div>
+</body>
+
+</html>
